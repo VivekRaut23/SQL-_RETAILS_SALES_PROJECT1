@@ -29,10 +29,10 @@ WHERE transactions_id IS NULL
 -- Q. How many Sales we have?
 SELECT Count(*) as total_sale from Retail_sales; 
 
--- Q. How many Unique we have?
+-- Q. How many Unique Customers we have?
 SELECT Count(Distinct customer_id) as Total_Customers from Retail_sales; 
 
--- Q. How many 
+-- Q. How many  Categories we have ?
 SELECT Count(Distinct category) as Total_category from Retail_sales; 
 
 -- Data Analysis OR Buisnes Key Problems:
